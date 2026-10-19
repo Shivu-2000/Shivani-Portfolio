@@ -1,0 +1,235 @@
+%-------------------------
+% Resume in Latex
+% Template Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+\usepackage{fontawesome5}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Shivani Gupta} \\ \vspace{3pt}
+    \footnotesize
+    \faPhone* +91-6388574069
+    \, $\vert$ \,
+    \href{mailto:shivani282gupta@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{shivani282gupta@gmail.com}}
+    \, $\vert$ \,
+    \href{https://www.linkedin.com/in/shivani-gupta2000/}{\raisebox{-0.2\height}\faLinkedin\ \underline{shivani-gupta2000}}
+    \, $\vert$ \,
+    \href{https://github.com/Shivu-2000}{\raisebox{-0.2\height}\faGithub\ \underline{Shivu-2000}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Summary}
+\resumeSubHeadingListStart
+  \resumeItem{Senior Data Engineer with 2+ years delivering enterprise-scale data platforms, ETL/ELT pipelines, and analytics solutions across Healthcare, Insurance, Manufacturing, and Automobile domains. Core expertise in Microsoft Fabric, Azure Databricks, Snowflake, Apache Spark, PySpark, ADF, SQL, Python, Paginated Report and Scala. Solution designer for two GA data products on Microsoft Fabric. Recognized Microsoft Power BI Community Super User, external Microsoft XIAD trainer, and mentor to $\sim$20 engineers. Holds 7 certifications including Microsoft Certified Data Engineer,  Databricks Certified Data Engineer Professional, SnowPro Core, and SnowPro Advanced Data Engineer.}
+\resumeSubHeadingListEnd
+\vspace{-13pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Core Stack}{: Microsoft Fabric, Azure Databricks, Snowflake, Apache Spark, PySpark, Azure Data Factory, SQL, Python, Scala} \\
+     \textbf{Data Platforms \& Processing}{: Microsoft Fabric Lakehouse, Databricks Lakehouse, Snowflake Data Cloud, Azure Synapse, ADLS, Delta Lake, SCD Type 2/3, Metadata-Driven Orchestration, Kafka, Airflow, dbt} \\
+     \textbf{Governance \& Quality}{: RLS, Azure AD, Databricks Unity Catalog, Microsoft Purview, Data Lineage, Metadata Management, Data Quality, Galaxy \& Star Schema, Medallion Architecture} \\
+     \textbf{BI, Languages \& Databases}{: Power BI, DAX, Paginated Reports, Power Automate, Tableau, Python, SQL, Scala, PostgreSQL, Azure SQL} \\
+     \textbf{AI \& DevOps}{: Prompt Engineering, GitHub Copilot, Claude AI, Gemini, Azure DevOps CI/CD, REST APIs, Microsoft Graph API, Git}
+     \\
+
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \href{https://learn.microsoft.com/en-us/users/01001464/credentials/certification/fabric-data-engineer-associate?tab=credentials-tab}{Microsoft Certified: Fabric Data Engineer Associate (DP-700)} $\vert$
+     \href{https://learn.microsoft.com/en-us/users/01001464/credentials/certification/fabric-analytics-engineer-associate?tab=credentials-tab}{Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)} $\vert$
+     \href{https://learn.microsoft.com/en-us/users/01001464/credentials/certification/data-analyst-associate?tab=credentials-tab}{Microsoft Certified: Power BI Data Analyst Associate (PL-300)} $\vert$
+     \href{https://learn.microsoft.com/en-us/users/01001464/credentials/certification/azure-developer?tab=credentials-tab}{Microsoft Certified: Azure Developer Associate (AZ-204)} $\vert$ \href{https://credentials.databricks.com/d43a3f8e-a606-4641-8c64-e98695820a11#acc.6fRr5b3P}{Databricks Certified Data Engineer Professional}
+    }
+    $\vert$ \href{https://achieve.snowflake.com/3655bd1e-2444-4f57-8946-7801aab2c09a#acc.jpvyMCNI}{SnowPro Core Certification}
+    }
+    $\vert$ \href{https://achieve.snowflake.com/3f93e55e-c8c2-42ee-bce5-a81b8a697441#acc.q4mMTjVf}{SnowPro Advanced: Data Engineer Certification}
+    
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Kanerika Inc.}{Jan 2024 - Present}
+      {Senior Data Engineer}{India}
+
+    \resumeSubSubheading
+      {Data Platform \& Lakehouse Engineering}{}
+      \resumeItemListStart
+        \resumeItem{Architected \textbf{Lakehouse solutions} on Azure Databricks, Snowflake, and Microsoft Fabric across Healthcare, Insurance, Manufacturing, and Automobile domains - processing \textbf{300B+ records} incrementally in Healthcare and \textbf{20M+} in Manufacturing across 6+ enterprise sources.}
+        \resumeItem{Built \textbf{metadata-driven orchestration frameworks} using Fabric Pipelines and Notebook activities enabling fully automated daily ingestion - new tables onboard via metadata entry, eliminating manual pipeline changes entirely.}
+        \resumeItem{Engineered \textbf{PySpark, Spark SQL, and Scala} ETL pipelines with \textbf{SCD Type 2/3}, Galaxy Schema (100+ tables), and Medallion Architecture (Bronze $\rightarrow$ Silver $\rightarrow$ Gold) supporting analytics across commercial, finance, operations, and supply chain domains.}
+        \resumeItem{Consolidated \textbf{8-9 normalized SAP BID/Proforma tables} into a single optimized model; built Shortcut Lakehouses for single source of truth; implemented fuzzy logic address matching to reconcile records across disparate datasets.}
+      \resumeItemListEnd
+
+    \resumeSubSubheading
+      {BI, Analytics \& Governance}{}
+      \resumeItemListStart
+        \resumeItem{Developed enterprise \textbf{Power BI semantic models} with advanced DAX, time intelligence, and dynamic calculations; maintained \textbf{100+ reports} across Healthcare and Manufacturing - majority with writeback - plus Paginated Reports for executive formatting; automated daily PDF distribution via Power Automate.}
+        \resumeItem{Implemented scalable automated \textbf{RLS} via Azure AD and Power Automate; designed silver and gold layer views with consistent transformation logic and Medallion Architecture standards; built a Python ML model for Work Order Classification reducing manual operations effort.}
+      \resumeItemListEnd
+
+    \resumeSubSubheading
+      {Product Design \& Mentorship}{}
+      \resumeItemListStart
+        \resumeItem{Solution designer for two GA data products - \textbf{Azure-to-Fabric Pipeline Migration Tool} (Microsoft Fabric marketplace) and \textbf{KARL Insight Agent}; collaborated with Microsoft engineers to set Fabric workload development standards across client solutions; received a \textbf{9/10 annual performance rating}.}
+        \resumeItem{Mentor $\sim$20 engineers on Databricks, Snowflake, and Fabric; external Microsoft XIAD trainer (DIAD, FAIAD, RTIAD); recognized as \textbf{Microsoft Power BI Community Super User}.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------CLIENT PROJECTS & PRODUCTS-----------
+\section{Client Projects \& Products}
+  \resumeSubHeadingListStart
+
+    \resumeSubSubheading
+      {US Healthcare Company - Enterprise Fabric Analytics Platform}{Microsoft Fabric, ADF, PySpark, Power BI, SAP, DAX}
+      \resumeItemListStart
+        \resumeItem{Fabric Lakehouse processing 300B+ records incrementally across 6+ sources; Galaxy Schema with 100+ tables, SCD Type 2/3 pipelines, and 100+ Power BI reports across commercial, finance, and supply chain domains.
+        \newline}
+      \resumeItemListEnd
+
+    \resumeSubSubheading
+      {US Material Handling Org - Analytics Modernization \& TDW}{Microsoft Fabric, Power BI, PySpark, Scala, DAX, Power Automate}
+      \resumeItemListStart
+        \resumeItem{20M+ records across Medallion Architecture Lakehouse - metadata-driven ingestion, 20+ Power BI reports with writeback, TDW pipeline, ML Work Order Classification, and Crystal Reports migration to Power BI.
+        \newline
+        
+        }
+      \resumeItemListEnd
+
+    \resumeSubSubheading
+      {Insurance \& Risk Management - Shared Services Analytics}{Microsoft Fabric, SQL, Power BI, Delta Lake \newline}
+      \resumeItemListStart
+        \resumeItem{Silver and gold layer assets across four heterogeneous sources; designed Fact and Dimension structures for a critical source system; acted as technical decision-maker throughout. \newline}
+      \resumeItemListEnd
+
+    \resumeSubSubheading
+      {Azure-to-Fabric Pipeline Migration Tool [GA - Microsoft Fabric]}{Microsoft Fabric, Azure Databricks, ADF, Python, Azure DevOps}
+      \resumeItemListStart
+        \resumeItem{GA product on Microsoft Fabric marketplace migrating ADF, Synapse, and Databricks pipelines to Fabric-native constructs (Dataflows Gen2, Notebooks, Lakehouse) with full lineage preservation.\newline}
+      \resumeItemListEnd
+
+    \resumeSubSubheading
+      {KARL - Insight Agent}{Microsoft Fabric, Azure AI, Python}
+      \resumeItemListStart
+        \resumeItem{AI-powered insight agent on Microsoft Fabric enabling natural language querying and intelligent analytics over enterprise data; contributed to solution architecture and feature design.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Institute of Technology, Raipur}{2021 - 2024}
+      {Master of Computer Applications (MCA)}{Chhattisgarh, India}
+    \resumeSubheading
+      {Bundelkhand University}{2018 - 2021}
+      {Bachelor of Computer Applications (BCA)}{Jhansi, India}
+  \resumeSubHeadingListEnd
+
+\end{document}

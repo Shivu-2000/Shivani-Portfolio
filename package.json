@@ -1,0 +1,40 @@
+{
+  "name": "shivani-portfolio",
+  "version": "1.0.0",
+  "description": "Shivani Gupta - Senior Data Engineer & Lakehouse Architect Portfolio",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "portfolio",
+    "data-engineer",
+    "microsoft-fabric",
+    "databricks",
+    "snowflake",
+    "react"
+  ],
+  "author": "Shivani Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "framer-motion": "^14.4.0",
+    "lucide-react": "^1.59.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}
